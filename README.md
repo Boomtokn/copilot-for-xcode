@@ -19,5 +19,5 @@ AI-powered GitHub Copilot integration for Xcode, providing smart code completion
 
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/Boomtoknlab/copilot-for-xcode.git
+   git clone https://github.com/Boomtokn/copilot-for-xcode.git
    cd copilot-for-xcode
