@@ -17,7 +17,7 @@ jobs:
       run: xcodebuild -workspace "Copilot for Xcode.xcworkspace" -scheme "Copilot for Xcode" -sdk macosx -destination 'platform=macOS' clean build
 
     - name: Create Release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: ${{ github.ref_name }}
         name: Release ${{ github.ref_name }}
