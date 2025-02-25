@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Build Xcode project
       run: xcodebuild -workspace "Copilot for Xcode.xcworkspace" -scheme "Copilot for Xcode" -sdk macosx -destination 'platform=macOS' clean build
